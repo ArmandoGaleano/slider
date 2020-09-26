@@ -1,0 +1,25 @@
+@import './components/breakpoints';
+@import './components/reset';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.e-vitrine {
+    width: 70%;
+    margin: 0 auto;
+    &_container.slider {
+        overflow: hidden;
+
+        .show-3 {
+            float: left;
+            width: 33.333%;
+            img{
+                // width: 100%;
+                // height: auto;
+            }
+        }
+    }
+}
